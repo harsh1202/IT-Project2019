@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<head>
+	<title>Home Page</title>
+	<script language="JavaScript">
+		window.onload = choosePic;
+		var theAd = 0;
+
+		var myPix = ["images/1.jfif","images/2.png","images/3.jfif","images/4.png","images/5.jfif","images/6.png","images/7.jfif","images/8.png"];
+		length=myPix.length;
+		
+		function choosePic() {
+		var randomNum = Math.floor(Math.random() * length );
+		document.getElementById("myPicture").src = myPix[randomNum];
+		rotate();
+		}
+		
+		
+	function rotate() {
+	
+     theAd++;
+     if (theAd == myPix.length) {
+        theAd = 0;
+     }
+     document.getElementById("myPicture").src = myPix[theAd];
+
+     setTimeout(rotate, 3 * 1000);
+}
+	 
+	 
+	 </script>
+
+<link rel="stylesheet" href="css/stylefinal.css" type="text/css">
+<link rel="stylesheet" href="css/extra.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+</head>
+
+
+<body bgcolor="white">
+	<a name="Home"><div id="container0">
+	<div id="logonbanner">
+<div class="coll20">
+	<div class="imagmod">
+	
+<img src="images/logo.png"></div></div>
+
+<div class="imagmod">
+<div class="coll80">
+
+<img src="images/extra.jpg">
+<div class="topright">
+	<b>Follow Us on-</b>
+     <a href="https://facebook.com/" class="fa fa-facebook" target="_blank"></a></a>
+     <a href=><a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a></a>
+     
+     <a href="https://google.com/" class="fa fa-google" target="_blank"></a></a>
+    <a href="https://youtube.com/" class="fa fa-youtube" target="_blank"></a>
+     <a href="https://instagram.com/" class="fa fa-instagram" target="_blank"></a>
+</a>
+
+</div>
+</div>
+	</div>
+
+
+	</div>
+	<div class="row"><font size="5">
+
+		<marquee>Hurryy Up! Admissions Open!!</marquee></font></div>
+
+	<div id="container">
+
+<nav id="menu">
+	<b>
+<ul>
+	<li><a name="home.html"><a href="home.html"  name="home" title="home">Home</a></a></li>
+    <li><a href="programme.html"   name="Programme" title="Programme">Programmes</a></li>
+    <li><a href="extra.html"  name="Extras" title="Extras"><font color="blue">Extra curricular</font></a></li>
+    
+    <li><a href="gallary.html"  name="Gallery" title="Gallery">Gallery</a></li>
+    <li><a href="aboutus.html"  name="about us" title="about us">About Us</a></li></b>
+</ul>
+
+</nav>
+
+</div><!--container close-->
+<br>
+<div class="raww">
+	<div class="colu100">
+		<div class="colu30">
+			<div class="extras"><b>
+Extra Curricular Activities</b>
+</div>
+<ul><font face="arial">
+	<li><a href="#Basketball">Basketball Tournament</a></li>
+	<li><a href="#Futsal">Futsal Tournament</a></li>
+	<li><a href="Esport.html">E-Sports</a></li>
+	<li><a href="dashain.html">Dashain-Tihar Fest 2075</a></li>
+	<li><a href="christ.html">Chritmas Day Celebration</a></li>
+	<li><a href="blood.html">Blood Donation Programme</a></li>
+	<li><a href="tennis.html">Table Tennis Cup</a></li>
+	<li><a href="mr.html">Mr and Mrs Freshers</a></li>
+	<li><a href="best.html"> Best College Cup</a></li>
+</ul></font>
+		</div>
+		<div class="colu70 colu101" ><br><br>
+<img src="images/extraactivity.png">
+			<h1>Extra Curricular Activities</h1><br><h2>
+			We are very focused on outer activities rather than only focused on learning.We emphasize our students to take part in each and every extra activities which not only develops their mental ability, it will also help greatly in their life in future(extra knowledge).
+			We are dedicated to do maximum actvitives which are given aside.<br><font color="blue">Please click links aside to know more.</font></h2>
+		</div>
+
+		<div class="colu45">
+<font color="blue">
+<h2>Related Links<br></h2>
+<hr><ul>
+<li><a href="1.html">HR College Staffs</a><br></li>
+<li><a href="1.html">Reputation</a><br></li>
+<li><a href="1.html">Foreign Placements</a><br></li></ul></font>
+		</div>
+		<div class="colu25">
+			
+<h2>Job Placements<br></h2>
+<hr>
+
+<img src="images/1.jfif" width="100%" height="200px" id="myPicture" alt="some image">
+
+		</div>
+
+	</div>
+
+</div>
+<div style="text-align: left;"><a href="#home.html">ExtraCurricular Activities^^</a></div>
+<div class="colu100">
+<div class="colu702">
+<div class="imagebox">
+<img src="images/basketball2.jpg" height="200px"  id="basketball" alt="basketball Tournament">
+</div>
+<b><h1><a name="Basketball">Basketball Tournament</a></h1><br>
+A Level Inter-College basketball tournament was organized at HR College from 20th January 22nd  January 2019. 12 teams from different colleges of Kathmandu participated in the tournament. Winner- Malpi and 1st Runner-up- HR. The winners were felicitated by the Chief Guest Mr. Narendra Thapa (Vice- President of Nepal Basketball Association).
+</b>
+
+		</div>
+</div>
+
+<div class="colu100"><div style="text-align: left;"><a href="#home.html">ExtraCurricular Activities^^</a></div>
+<div class="colu702">
+<div class="imagebox">
+<img src="images/football.jpg" height="200px"  id="football" alt="football Tournament">
+</div>
+<b><h1><a name="Futsal">Futsal Tournament</a></h1><br>
+A massive well done to our team of students who won the KCM Devil's Cup 2019 (Inter College Football Tournament) - impressively defeating Little Angels' College, 2-1. With this triumph, our students have truly done themselves proud, showing great sportsmanship and integrity throughout the competition. The HR College is immensely proud and would like to congratulate them on their spectacular achievement.</b>
+
+		</div>
+</div>
+
+
+<div class="footercont"><hr>
+	<div style="color:white;text-align: right;">
+<a href="contact.html">Terms and condition</a>&nbsp;&nbsp;| &nbsp;&nbsp;<a href="contact.html">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="faq.html">FAQ's</a>
+</div>
+		<div style="text-align:center;font-size:18px;text-decoration: none;">
+		©Copyright @ 2019 harshgupta.com.np/hrcollege <br> All Rights Reserved.&nbsp;&nbsp;&nbsp;
+		
+		<div style="text-decoration:none;color:black;font-size:25px"><p align="right">
+	<a href="#home"><font color="black">Top</p></a></font></div>
+</div>
+</a></p></div>
+</div>
+</div>
+</a>
+</body>
+</html>

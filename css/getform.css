@@ -1,0 +1,39 @@
+h3{
+  font-family: arial; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:black;
+  text-align: center; 
+  text-decoration: underline
+}
+
+table{
+  font-family: arial; 
+  color:black; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: lightgrey; 
+  border-collapse: collapse; 
+  border: 2px solid navy;
+}
+table.inner{
+  border: 0px
+}
+
+@media screen and (max-width: 480px){
+table{
+  font-family: arial; 
+  color:black; 
+  font-size: 13pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: lightgrey; 
+  border-collapse: collapse; 
+  border: 2px solid navy;
+}
+  
+}

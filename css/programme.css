@@ -1,0 +1,118 @@
+*{margin:0;
+padding:0;
+}
+
+
+
+.smcont{
+	clear: both;
+	width: 100%;
+	height: 40px;
+	color: black;
+	border: 5px solid black;
+	opacity: 0.9;
+	background-color: black;
+}
+
+.one{
+
+	width: 100%;
+	color:white;
+	font-size: 30px;
+	float: left;
+
+}
+
+.roww{
+	
+	min-height:10px;
+	padding-top: 10px;
+
+}
+
+.coll35{
+	width: 34%;
+	height: 400px;
+	margin: auto;
+	border:2px solid green;
+	float: left;
+padding-top: 20px;
+}
+
+.row{
+border:0px;
+	min-height:200px;
+	border-radius: 3px ;
+	border: 3px solid black;
+	box-shadow: 5px 10px lightgrey;
+	margin-top:5px;padding: 2px;
+}
+.col100{
+	width:100%;
+	min-height:50px;
+}
+
+.col75{
+	width:75%;
+	min-height:50px;
+	float:left;
+}
+.col50{
+	width:49%;
+	min-height:50px;
+	margin: 1px;
+	overflow: auto;
+	float:left;
+}
+
+.col25{
+	width:25%;
+	min-height:50px;
+	float:left;
+	background-color: green;
+	margin:5px;
+}
+img{
+	width:100%;
+	height:200px;
+	float: left;
+}
+img col25{
+	width:100%;
+	height:50px;
+}
+
+@media screen and (max-width: 480px)
+{
+	body{
+		background-color:white;
+	}
+.row{
+	width: 100%;
+	min-height:150px;
+	border: 0px solid black;
+	box-shadow: 0px 0px lightgrey;
+	margin-top:2px;
+
+}
+	img{
+	width:100%;
+	height:150px;
+	float:left;
+}
+	.colsm100{
+		width:100%;
+		min-height:100px;
+		margin-top:3px;
+		background-color: lightgrey;
+	}
+
+	.one{
+
+	width: 100%;
+	color:white;
+	font-size: 20px;
+	float: left;
+
+}
+}
